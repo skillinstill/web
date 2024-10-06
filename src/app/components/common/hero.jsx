@@ -31,7 +31,7 @@ export default function Hero() {
     }, [currentTextIndex, contentArray.length]);
 
     return (
-        <div className="h-[100dvh] relative md:h-[90dvh] p-16 md:p-12 md:pt-0 flex md:justify-between items-end md:items-center w-full">
+        <div className="h-[100dvh] relative md:h-[90dvh] md:p-12 md:pt-0 flex md:justify-between items-end md:items-center w-full">
             <AnimatePresence mode="wait">
                 <div className="flex flex-wrap md:flex-nowrap overflow-hidden p-12 md:p-0 md:items-center w-full md:rounded-3xl h-full justify-center relative">
                     <motion.div
@@ -40,7 +40,7 @@ export default function Hero() {
                             backgroundSize: "cover",
                             backgroundImage: `url('/asset-${currentImageIndex}.webp')`,
                         }}
-                        className={`w-full h-full object-cover bg-right-top absolute top-0 left-0`}
+                        className={`w-full h-full object-cover absolute top-0 left-0`}
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         exit={{ opacity: 0 }}
