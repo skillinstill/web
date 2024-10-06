@@ -10,8 +10,8 @@ export default function ImageWithSideContent({
 }) {
     return (
         <div
-            className={`w-full flex flex-col items-center md:flex-wrap lg:flex-nowrap shrink-0 py-12 px-8 lg:px-0 mx-auto md:flex-row max-w-screen-xl ${
-                imgOnLeft ? "md:flex-row-reverse justify-between md:gap-12" : ""
+            className={`w-full flex flex-col-reverse gap-6 items-center md:gap-12 md:flex-wrap lg:flex-nowrap shrink-0 py-12 px-8 lg:px-0 mx-auto md:flex-row max-w-screen-xl ${
+                imgOnLeft ? "md:flex-row-reverse justify-between" : ""
             } `}
         >
             <div className="flex flex-col mb-6 md:min-w-[20rem] gap-2">
@@ -23,7 +23,7 @@ export default function ImageWithSideContent({
                 >
                     {title}
                 </motion.h1>
-                <p className="text-sm  z-20 md:text-sm break-words w-full md:w-11/12 mt-2 text-zinc-800">
+                <p className="text-sm mb-4 z-20 md:text-sm break-words w-full md:w-11/12 mt-2 text-zinc-800">
                     {desc}
                 </p>
 
