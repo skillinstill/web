@@ -69,7 +69,7 @@ export default function Nav() {
                 className={` ${
                     isOpen
                         ? "top-12 pointer-events-auto"
-                        : "-top-full pointer-events-none"
+                        : "-top-[100%] pointer-events-none"
                 } anim-slo z-50 fixed mob drop-shadow-2xl top-0 w-full pt-8 bg-white`}
             >
                 <ul className="flex flex-col w-full text-slate-600 gap-6 font-semibold">
