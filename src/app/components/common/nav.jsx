@@ -12,7 +12,7 @@ export default function Nav() {
     return (
         <>
             {/*desktop navbar*/}
-            <nav className="flex pc justify-between toppp bg-white/80 backdrop-blur-lg top-0 left-0 drop-shadow-lg items-center pr-12 pl-8 w-full">
+            <nav className="flex pc justify-between toppp bg-white/80 backdrop-blur-lg top-0 left-0  items-center pr-12 pl-8 w-full">
                 <Image
                     priority
                     className="object-contain w-28"
@@ -69,7 +69,7 @@ export default function Nav() {
                 className={` ${
                     isOpen
                         ? "top-12 pointer-events-auto"
-                        : "-top-[100%] pointer-events-none"
+                        : "-top-[200%] pointer-events-none"
                 } anim-slo z-50 fixed mob drop-shadow-2xl top-0 w-full pt-8 bg-white`}
             >
                 <ul className="flex flex-col w-full text-slate-600 gap-6 font-semibold">

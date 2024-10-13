@@ -31,7 +31,7 @@ export default function Hero() {
     }, [currentTextIndex, contentArray.length]);
 
     return (
-        <div className="h-[100dvh] relative md:h-[90dvh] md:p-12 md:pt-24 flex md:justify-between items-end md:items-center w-full">
+        <div className="h-[100dvh] relative md:h-[90dvh] md:p-12 md:pt-0 flex md:justify-between items-end md:items-center w-full">
             <AnimatePresence mode="wait">
                 <div className="flex flex-wrap md:flex-nowrap overflow-hidden p-12 md:p-0 md:items-center w-full md:rounded-3xl h-full justify-center relative">
                     <motion.div
