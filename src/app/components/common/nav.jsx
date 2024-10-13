@@ -51,21 +51,26 @@ export default function Nav() {
 
             {/*mobile navbar*/}
 
-            <button
+            <div
                 onClick={() => setIsOpen(!isOpen)}
-                className={`mob text-white text-2xl bg-green-500 anim-slo toppp rounded-full w-12 h-12 flex justify-center items-center fixed bottom-6 right-8 drop-shadow-xl ${
-                    isOpen ? "rotate-180 " : "rotate-0"
-                } `}
+                className={`mob text-white text-2xl bg-white anim-slo toppp w-full p-4 flex justify-between items-center fixed top-0 left-0`}
             >
-                {isOpen ? <IoClose /> : <CgMenuMotion />}
-            </button>
+                <Image src={"/icon.png"} width={32} height={32} alt="" />
+                <button
+                    className={`mob text-black text-2xl bg-white anim-slo toppp rounded-full flex justify-center items-center${
+                        isOpen ? "rotate-180 " : "rotate-0"
+                    } `}
+                >
+                    {isOpen ? <IoClose /> : <CgMenuMotion />}
+                </button>
+            </div>
 
             <nav
                 className={` ${
                     isOpen
-                        ? "left-0 pointer-events-auto"
-                        : "-left-full pointer-events-none"
-                } anim-slo z-50 fixed mob drop-shadow-2xl top-0 h-[100dvh] w-10/12 pt-8 bg-white`}
+                        ? "top-12 pointer-events-auto"
+                        : "-top-full pointer-events-none"
+                } anim-slo z-50 fixed mob drop-shadow-2xl top-0 w-full pt-8 bg-white`}
             >
                 <ul className="flex flex-col w-full text-slate-600 gap-6 font-semibold">
                     {navItems.map((item, index) => (

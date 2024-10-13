@@ -17,7 +17,7 @@ export default function ImageWithSideContent({
             <div className="flex flex-col mb-6 md:min-w-[20rem] gap-2">
                 <motion.h1
                     initial={{ opacity: 0, y: 15 }}
-                    animate={{ opacity: 1, y: 0 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, ease: "easeOut" }}
                     className="heading w-11/12 md:w-5/6"
                 >

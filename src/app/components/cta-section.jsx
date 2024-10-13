@@ -1,5 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
-
+import img from "../../assets/globe.jpg";
 export default function CTASection() {
     return (
         <div
@@ -17,13 +18,13 @@ export default function CTASection() {
             >
                 Join us
             </Link>
-            {/* <Image
-                    src={img}
-                    width={700}
-                    height={300}
-                    alt=""
-                    className="absolute no-select pointer-events-none grayscale top-1/2 -translate-y-1/2 left-0 opacity-10 w-full h-full origin-center object-cover"
-                /> */}
+            <Image
+                src={img}
+                width={700}
+                height={300}
+                alt=""
+                className="absolute no-select pointer-events-none grayscale top-1/2 -translate-y-1/2 left-0 opacity-10 w-full h-full origin-center object-cover"
+            />
         </div>
     );
 }

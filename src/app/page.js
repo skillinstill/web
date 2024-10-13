@@ -30,12 +30,20 @@ export default function Home() {
                     a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Expert Instructors",
+                    a: "Learn directly from industry veterans with hands-on expertise in emerging technologies, digital transformation, and leadership development.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Flexible Delivery Models",
+                    a: "Choose between online, on-site, or hybrid training options to best fit your team's schedule and operational needs.",
+                },
+                {
+                    q: "Continuous Learning",
+                    a: "Stay ahead of technological advancements with a dynamic curriculum that evolves with the industry.",
+                },
+                {
+                    q: "Data-Driven Insights",
+                    a: "Monitor team progress and training impact through performance analytics, ensuring a direct link to business outcomes.",
                 },
             ],
         },
@@ -44,34 +52,46 @@ export default function Home() {
             img: s2,
             details: [
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Custom Talent Sourcing",
+                    a: "We develop a recruitment strategy tailored to your industry, company culture, and specific job requirements, sourcing candidates who are the best fit for your team.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Tech-Savvy Recruiter",
+                    a: "Our recruitment experts specialize in finding talent for highly technical roles, ensuring you get candidates with the precise skills your business demands.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "End-to-End Recruitment",
+                    a: "From job posting and candidate sourcing to interviews and onboarding, we handle the entire recruitment process, saving you time and resources.",
+                },
+                {
+                    q: "Flexible Hiring Models",
+                    a: "Whether you need to hire full-time employees, contract workers, or project-based talent, our adaptable hiring solutions ensure a perfect match for your business needs.",
+                },
+                {
+                    q: "Virtual HR Solutions",
+                    a: "Simplify your HR operations with powerful, accelerating recruitment, streamlining onboarding, and optimizing employee growth, all while saving time and costs.",
                 },
             ],
         },
         {
-            name: "technology-consulting",
+            name: "consulting-as-a-service",
             img: s3,
             details: [
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Expert Insights",
+                    a: "Access top consultants with deep industry expertise, ready to tackle your most pressing challenges.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Customized Solutions",
+                    a: "Get tailored strategies and solutions that align with your business goals and drive impactful results.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Scalable Support",
+                    a: "Engage with our services on your terms, from project-based engagements to ongoing advisory support.",
+                },
+                {
+                    q: "Efficient Implementation",
+                    a: "Accelerate your initiatives with our streamlined approach and proven methodologies.",
                 },
             ],
         },
@@ -80,16 +100,16 @@ export default function Home() {
             img: s4,
             details: [
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Custom Software Solutions",
+                    a: "Design and develop bespoke applications that align perfectly with your unique business requirements and goals.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "User-Centric Design",
+                    a: "Focus on delivering intuitive and engaging user experiences that drive satisfaction and adoption.",
                 },
                 {
-                    q: "Tailored Training Programs",
-                    a: "We customize training modules to align with your company&apos;s unique needs, from foundational skills to advanced tech specializations.",
+                    q: "Cutting-Edge Technologies",
+                    a: "Leverage the latest technologies and frameworks to build robust, secure, and high-performance applications.",
                 },
             ],
         },
@@ -113,7 +133,7 @@ export default function Home() {
             <Hero />
             <section
                 id="about"
-                className="flex flex-wrap md:flex-nowrap gap-x-12 my-16 relative mx-auto md:pr-8 md:px-36 "
+                className="flex flex-wrap lg:flex-nowrap gap-x-12 my-16 relative mx-auto md:pr-8 md:px-36 "
             >
                 <Image
                     src={circ}
@@ -214,7 +234,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <section>
+            <section id="careers">
                 <CTASection />
             </section>
 

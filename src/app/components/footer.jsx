@@ -15,16 +15,16 @@ export default function Footer() {
                 alt="logo"
             />
             <div className=" w-4/6 my-6 gap-8 mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center md:items-start">
-                <div className="flex flex-col justify-center items-center md:items-start font-semibold text-xl gap-4">
+                <div className="flex flex-col justify-center items-center md:items-start font-semibold md:text-xl gap-4">
                     <Link
-                        className="flex gap-2 justify-center md:justify-start items-center"
+                        className="flex flex-col md:flex-row gap-2 text-center justify-center md:justify-start items-center"
                         href="/"
                     >
                         <FaBuilding />
                         Address, Address, Address
                     </Link>
                     <Link
-                        className="flex gap-2 items-center"
+                        className="flex flex-col md:flex-row gap-2 items-center"
                         href="tel:9876543210"
                     >
                         <FaPhone />

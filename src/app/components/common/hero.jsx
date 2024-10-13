@@ -31,7 +31,7 @@ export default function Hero() {
     }, [currentTextIndex, contentArray.length]);
 
     return (
-        <div className="h-[100dvh] relative md:h-[90dvh] md:p-12 md:pt-0 flex md:justify-between items-end md:items-center w-full">
+        <div className="h-[100dvh] relative md:h-[90dvh] md:p-12 md:pt-24 flex md:justify-between items-end md:items-center w-full">
             <AnimatePresence mode="wait">
                 <div className="flex flex-wrap md:flex-nowrap overflow-hidden p-12 md:p-0 md:items-center w-full md:rounded-3xl h-full justify-center relative">
                     <motion.div
@@ -46,7 +46,7 @@ export default function Hero() {
                         exit={{ opacity: 0 }}
                         transition={{ duration: 1 }}
                     />
-                    <div className="md:ml-24 lg:ml-36 relative z-10">
+                    <div className="md:ml-24 lg:ml-36 mt-16 md:mt-0 relative z-10">
                         <AnimatePresence mode="wait">
                             <TextHero
                                 key={currentTextIndex} // Dynamic key for TextHero
