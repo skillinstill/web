@@ -11,7 +11,6 @@ export default function Services({ params }) {
     );
 
     const data = servicesData.find((service) => service.route === params.id);
-    console.log(data);
 
     return (
         <>

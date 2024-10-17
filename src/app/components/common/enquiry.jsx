@@ -21,7 +21,7 @@ export default function ContactForm() {
             ...prevState,
             [name]: value,
         }));
-        console.log(formData);
+        // console.log(formData);
     };
 
     const handleSubmit = async (e) => {
@@ -43,6 +43,7 @@ export default function ContactForm() {
             }
 
             const result = await response.json();
+
             setSubmitStatus("Message sent successfully!");
             setFormData({
                 name: "",
