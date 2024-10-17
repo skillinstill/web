@@ -11,9 +11,10 @@ export async function POST(request) {
             body;
 
         const { data, error } = await resend.emails.send({
-            from: "Acme <onboarding@resend.dev>",
-            to: ["admin@skillinstill.com"],
-            subject: "New Career Application",
+            from: "admin@skillinstill.com",
+            to: ["prasanna.srinivas@skillinstill.com"],
+            cc: ["admin@skillinstill.com"],
+            subject: "A new enquiry for - '" + enquiryType + "'",
             react: CareersForm({
                 name,
                 contactNumber,

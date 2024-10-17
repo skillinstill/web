@@ -2,7 +2,6 @@ import {
     Body,
     Container,
     Head,
-    Heading,
     Html,
     Preview,
     Section,
@@ -22,11 +21,11 @@ export const CareersForm = ({
         <Preview>New form submission from - {name}</Preview>
         <Body style={main}>
             <Container style={container}>
-                <Heading style={h1}>New form submission</Heading>
+                {/* <Heading style={h1}>New form submission</Heading>
                 <Text style={text}>
                     You have received a New form submission with the following
                     details:
-                </Text>
+                </Text> */}
                 <Section style={detailSection}>
                     <Text style={label}>Name:</Text>
                     <Text style={value}>{name}</Text>

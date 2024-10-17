@@ -13,7 +13,7 @@ export default function CTASection() {
                 We are always looking for emerging talents around the globe
             </h1>
             <Link
-                href={"https://www.linkedin.com/company/skill-instill/jobs/"}
+                href={"https://forms.gle/aRYTMDqf5We5R6mY6"}
                 target="_blank"
                 className="bg-green-500 z-40 text-white font-semibold rounded-full px-8 p-4"
             >

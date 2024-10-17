@@ -1,16 +1,14 @@
 "use client";
 
+import v1 from "@/assets/venue/venue (1).jpg";
+import v2 from "@/assets/venue/venue (2).jpg";
+import v3 from "@/assets/venue/venue (3).jpg";
+import v4 from "@/assets/venue/venue (4).jpg";
+import v5 from "@/assets/venue/venue (5).jpg";
 import Image from "next/image";
 
 const ImageGrid = () => {
-    const images = [
-        "/asset-1.webp",
-        "/asset-2.webp",
-        "/asset-3.webp",
-        "/asset-1.webp",
-        "/asset-2.webp",
-        "/asset-3.webp",
-    ];
+    const images = [v1, v2, v3, v4, v5];
 
     return (
         <div className="max-w-screen-xl mt-12 mx-auto p-4">
@@ -63,6 +61,10 @@ const ImageGrid = () => {
                     />
                 </div>
             </div>
+            <p className="text-center text-2xl my-8 mx-auto text-w font-semibold tracking-tighter text-green-600">
+                State-of-the-Art Corporate Training spaces in Chennai and
+                Bangalore
+            </p>
             <style jsx>{`
                 .grid {
                     grid-template-rows: repeat(2, minmax(200px, 1fr));

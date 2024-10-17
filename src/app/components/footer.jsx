@@ -1,8 +1,8 @@
 import { navItems } from "@/data/constants";
 import Image from "next/image";
 import Link from "next/link";
-import { FaBuilding, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
-import { FaPhone, FaXTwitter } from "react-icons/fa6";
+import { FaBuilding, FaLinkedinIn } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -21,27 +21,28 @@ export default function Footer() {
                         href="/"
                     >
                         <FaBuilding />
-                        Address, Address, Address
+                        IT Expressway, Old Mahabalipuram Road, Perungudi,Chennai
+                        600096
                     </Link>
                     <Link
                         className="flex flex-col md:flex-row gap-2 items-center"
                         href="tel:9876543210"
                     >
                         <FaPhone />
-                        9876543210
+                        9884823426
                     </Link>
                 </div>
                 <div className="flex gap-12 md:text-2xl justify-center items-center">
-                    <Link href={"#"}>
+                    <Link
+                        target="_blank"
+                        href={"mailto:prasanna.srinivas@skillinstill.com"}
+                    >
                         <IoMdMail />
                     </Link>
-                    <Link href={"#"}>
-                        <FaFacebookF />
-                    </Link>
-                    <Link href={"#"}>
-                        <FaXTwitter />
-                    </Link>
-                    <Link href={"#"}>
+                    <Link
+                        target="_blank"
+                        href={"https://www.linkedin.com/company/skill-instill/"}
+                    >
                         <FaLinkedinIn />
                     </Link>
                 </div>
@@ -51,7 +52,7 @@ export default function Footer() {
                     <Link
                         key={index}
                         href={"/#" + item.link}
-                        className="flex gap-3 md:gap-6 text-xs md:text-base hover:text-primary anim"
+                        className="flex gap-3 md:gap-6 text-xs md:text-base hover:text-green-500 anim"
                     >
                         {item.name}{" "}
                         <span className="inline">

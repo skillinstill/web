@@ -13,14 +13,16 @@ export default function Nav() {
         <>
             {/*desktop navbar*/}
             <nav className="flex pc justify-between toppp bg-white/80 backdrop-blur-lg top-0 left-0  items-center pr-12 pl-8 w-full">
-                <Image
-                    priority
-                    className="object-contain w-28"
-                    src={"/full-logo-b.png"}
-                    width={100}
-                    height={50}
-                    alt=""
-                />
+                <Link href={"#"}>
+                    <Image
+                        priority
+                        className="object-contain w-40"
+                        src={"/full-logo-b.png"}
+                        width={150}
+                        height={50}
+                        alt=""
+                    />
+                </Link>
                 <ul className="flex text-slate-600 gap-6 lg:gap-12 font-semibold">
                     {navItems.map((item, index) => (
                         <li
@@ -42,7 +44,7 @@ export default function Nav() {
                     ))}
                 </ul>
                 <Link
-                    href={"/"}
+                    href={"/#contact"}
                     className="bg-green-500 text-white font-semibold rounded-full px-8 p-4"
                 >
                     Contact us
