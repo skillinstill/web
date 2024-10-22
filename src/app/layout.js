@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
         <html data-theme="light" lang="en">
             <head>
                 <link rel="icon" href="/favicon.png" />
-                <link rel="canonical" href="https://skillinstill.com/" />
+                <link rel="canonical" href="https://www.skillinstill.com/" />
             </head>
             <body
                 className={` ${figtree.className} flex flex-col min-h-100dvh antialiased`}
