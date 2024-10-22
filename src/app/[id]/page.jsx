@@ -33,7 +33,7 @@ export default function Services({ params }) {
                             <h1 className="text-3xl md:text-5xl font-thin tracking-tighter">
                                 {data.name}
                             </h1>
-                            <p className="text-xl md:text-2xl align-bottom py-4 md:py-8 font-thin">
+                            <p className="text-xl md:text-2xl whitespace-pre-line py-4 md:py-8 font-thin">
                                 {data.desc}
                             </p>
                             <div className="flex w-full md:w-fit justify-between md:justify-start gap-4">

@@ -31,17 +31,16 @@ export const servicesData = [
                 a: "Monitor team progress and training impact through performance analytics, ensuring a direct link to business outcomes.",
             },
         ],
-        desc: `Unlock your team's full potential with SKILL INSTILL's Training as a Service (TaaS) solution. Designed to provide ongoing, scalable, and customizable training, our TaaS platform equips your organization with the critical skills needed to thrive in today’s fast-paced technology landscape. Whether for new hires, experienced teams, or executive leaders, our flexible training approach delivers expertise directly to your workforce when and where they need it.
-
+        desc: `Unlock your team's full potential with SKILL INSTILL's Training as a Service (TaaS) solution. 
+Designed to provide ongoing, scalable, and customizable training, our TaaS platform equips your organization with the critical skills needed to thrive in today’s fast-paced technology landscape. 
+Whether for new hires, experienced teams, or executive leaders, our flexible training approach delivers expertise directly to your workforce when and where they need it.
 
 Key Features:
-•	Tailored Training Programs: We customize training modules to align with your company’s unique needs, from foundational skills to advanced tech specializations.
-Expert Instructors: Learn directly from industry veterans with hands-on expertise in emerging technologies, digital transformation, and leadership development.
-•	Flexible Delivery Models: Choose between online, on-site, or hybrid training options to best fit your team’s schedule and operational needs
-•	Continuous Learning: Stay ahead of technological advancements with a dynamic curriculum that evolves with the industry.
-•	Data-Driven Insights: Monitor team progress and training impact through performance analytics, ensuring a direct link to business outcomes.
-
-`,
+• Tailored Training Programs: We customize training modules to align with your company’s unique needs, from foundational skills to advanced tech specializations.
+• Expert Instructors: Learn directly from industry veterans with hands-on expertise in emerging technologies, digital transformation, and leadership development.
+• Flexible Delivery Models: Choose between online, on-site, or hybrid training options to best fit your team’s schedule and operational needs.
+• Continuous Learning: Stay ahead of technological advancements with a dynamic curriculum that evolves with the industry.
+• Data-Driven Insights: Monitor team progress and training impact through performance analytics, ensuring a direct link to business outcomes.`,
         imgs: [s1],
     },
     {
@@ -71,14 +70,15 @@ Expert Instructors: Learn directly from industry veterans with hands-on expertis
                 a: "Simplify your HR operations with powerful, accelerating recruitment, streamlining onboarding, and optimizing employee growth, all while saving time and costs.",
             },
         ],
-        desc: `Designed to help organizations efficiently recruit the best talent in the tech industry. Our flexible and comprehensive recruitment solutions are built to address your specific hiring needs, ensuring you have access to top-tier candidates with the right skills and experience to drive your business forward.
+        desc: `Designed to help organizations efficiently recruit the best talent in the tech industry. 
+Our flexible and comprehensive recruitment solutions are built to address your specific hiring needs, ensuring you have access to top-tier candidates with the right skills and experience to drive your business forward.
+
 Key Features:
-•	Custom Talent Sourcing: We develop a recruitment strategy tailored to your industry, company culture, and specific job requirements, sourcing candidates who are the best fit for your team.
-•	Tech-Savvy Recruiters: Our recruitment experts specialize in finding talent for highly technical roles, ensuring you get candidates with the precise skills your business demands.
-•	End-to-End Recruitment: From job posting and candidate sourcing to interviews and onboarding, we handle the entire recruitment process, saving you time and resources.
-•	Flexible Hiring Models: Whether you need to hire full-time employees, contract workers, or project-based talent, our adaptable hiring solutions ensure a perfect match for your business needs.
-•	Virtual HR Solutions: Simplify your HR operations with powerful, accelerating recruitment, streamlining onboarding, and optimizing employee growth, all while saving time and costs.
-`,
+• Custom Talent Sourcing: We develop a recruitment strategy tailored to your industry, company culture, and specific job requirements, sourcing candidates who are the best fit for your team.
+• Tech-Savvy Recruiters: Our recruitment experts specialize in finding talent for highly technical roles, ensuring you get candidates with the precise skills your business demands.
+• End-to-End Recruitment: From job posting and candidate sourcing to interviews and onboarding, we handle the entire recruitment process, saving you time and resources.
+• Flexible Hiring Models: Whether you need to hire full-time employees, contract workers, or project-based talent, our adaptable hiring solutions ensure a perfect match for your business needs.
+• Virtual HR Solutions: Simplify your HR operations with powerful, accelerating recruitment, streamlining onboarding, and optimizing employee growth, all while saving time and costs.`,
         imgs: [s2],
     },
     {
@@ -106,13 +106,11 @@ Key Features:
         ],
         desc: `Our flexible, on-demand consulting solutions provide expert guidance tailored to your specific needs, whether it’s technology innovation, business transformation, or operational efficiency.
 
-
 Key Features:
-•	Expert Insights: Access top consultants with deep industry expertise, ready to tackle your most pressing challenges.
-•	Customized Solutions: Get tailored strategies and solutions that align with your business goals and drive impactful results.
-•	Scalable Support: Engage with our services on your terms, from project-based engagements to ongoing advisory support.
-•	Efficient Implementation: Accelerate your initiatives with our streamlined approach and proven methodologies.
-`,
+• Expert Insights: Access top consultants with deep industry expertise, ready to tackle your most pressing challenges.
+• Customized Solutions: Get tailored strategies and solutions that align with your business goals and drive impactful results.
+• Scalable Support: Engage with our services on your terms, from project-based engagements to ongoing advisory support.
+• Efficient Implementation: Accelerate your initiatives with our streamlined approach and proven methodologies.`,
         imgs: [s3],
     },
     {
@@ -134,14 +132,12 @@ Key Features:
                 a: "Leverage the latest technologies and frameworks to build robust, secure, and high-performance applications.",
             },
         ],
-        desc: `We offer end-to-end software development tailored to your business needs, leveraging cutting-edge technologies to build custom applications, optimize workflows, and enhance your digital presence. our expert team delivers scalable, high-quality software solutions that drive your business forward.
+        desc: `We offer end-to-end software development tailored to your business needs, leveraging cutting-edge technologies to build custom applications, optimize workflows, and enhance your digital presence.
 
 Key Features:
-
-Custom Software Solutions: Design and develop bespoke applications that align perfectly with your unique business requirements and goals.
-User-Centric Design: Focus on delivering intuitive and engaging user experiences that drive satisfaction and adoption.
-Cutting-Edge Technologies: Leverage the latest technologies and frameworks to build robust, secure, and high-performance applications.
-`,
+• Custom Software Solutions: Design and develop bespoke applications that align perfectly with your unique business requirements and goals.
+• User-Centric Design: Focus on delivering intuitive and engaging user experiences that drive satisfaction and adoption.
+• Cutting-Edge Technologies: Leverage the latest technologies and frameworks to build robust, secure, and high-performance applications.`,
         imgs: [s4],
     },
 ];
